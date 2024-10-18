@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Zen+Loop:ital@0;1&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ced3cd;
+  --primary: #ffffff;
+  --secondary: #829b97;
+  --accent: #c5b496;
+  --dark: #33626c;
+
+  --transition: all .3s ease-in-out;
+}
+
+body {
+  color: var(--primary);
+  font-family: 'Nanum Gothic', 'sans-serif';
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+
+button,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Zen Loop', 'sans-serif';
+}
